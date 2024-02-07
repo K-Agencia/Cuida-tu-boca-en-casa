@@ -1,0 +1,24 @@
+.Compartir{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.classDescarga{
+   width: 48.44px;
+   height: 48.44px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #d2010d;
+   border: 0px;
+   border-radius: 50%;
+}
+
+.classDescarga svg{
+   width: 35px;
+   height: 35px;
+   color: #fff;
+}

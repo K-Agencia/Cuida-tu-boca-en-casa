@@ -1,0 +1,50 @@
+@import url("./fonts.css");
+@import url("./color.css");
+
+body {
+   margin: 0;
+}
+
+.App {
+   font-family: "Regular";
+   color: var(--color-gris-oscuro);
+   background: #019ba4 !important;
+}
+
+.container.body {
+   background: #ffffff !important;
+}
+
+.Content {
+   padding: 0 15em;
+}
+
+.Overlay {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.opaco {
+   background: rgba(0, 0, 0, .5);
+   z-index: 1;
+}
+
+.noShow {
+   display: none;
+}
+
+.invalid-feedback{
+   display: block !important;
+}
+
+@media only screen and (max-width: 1400px) {
+   .Content {
+      padding: 0 7em;
+   }
+}
